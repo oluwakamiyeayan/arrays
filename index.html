@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noise makers</title>
+    <link rel="stylesheet" href="noise.css">
+    <link rel="stylesheet" href="noise.js">
+</head>
+
+    <body>
+        <div class="container"> 
+            <p>List of  Noise makers</p>
+            <div class="div">
+                <p id="list-container">
+                    Tunji, Olawumi, Setemi, Adufe, Glory, Precious, Grace
+                 </p>
+            </div>
+            <div class="inputs">
+                <div class="first">
+                   <input type="text" id="first"><button onclick="unshift()">unshift here</button>
+                </div>
+                <div class="second">
+                  <input type="text" id="second" disabled><button onclick="sliceHere()">slice all</button>
+                </div>
+                <div class="third">
+                  <input type="text" id="third"><button onclick="pushHere()">push [ ]</button>
+                </div>
+                <div class="forth" >
+                  <input type="text" id="forth"><button onclick="spliceHere()">splice middle</button>
+                     
+                </div>
+                <div class="fifth">
+                  <input type="text" id="fifth" disabled><button onclick="extract()">extract [0]</button>
+                </div>
+                <div class="start">
+                  <input type="number" id="start" placeholder="Start index">
+                </div>
+                <div class="dcount">
+                  <input type="number" id="dcount" placeholder="delete count">
+                </div>
+                <!-- <input type="text" id="sixth">&nbsp;&nbsp;&nbsp<button>unshift here</button> -->
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
